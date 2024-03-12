@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1284px) {
+  nav {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items in the column */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .logo h1 {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  nav input {
+    width: 100%; /* Make the search input full width on smaller screens */
+    margin-top: 10px; /* Add some margin to the top */
+  }
+
+  .icon span {
+    margin-inline: 5px; /* Adjust margin for smaller screens */
+  }
+}
+@media only screen and (max-width: 1284px) {
+.main{
+  flex-direction: column;
+}
+}
+@media only screen and (max-width: 1284px) {
+  .card{
+  flex-direction: column;
+}
+}

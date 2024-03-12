@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="food.css">
+  <link rel="stylesheet" href="media.css">
+  
+
+</head>
+<body onclick="hideLoginAndNav()">
+<div class="container">
+  <nav>
+    <div class="logo">
+      <h1>R-FOOD HUB</h1>
+    </div>
+    <input type="text" value=" " id="input" placeholder="search here...." onkeyup="myFun()">
+    <div class="input">
+    <span class="material-symbols-outlined">
+      search
+      </span>
+    </div>
+      <div class="icon">
+        <span onclick="login()" class="material-symbols-outlined">
+          background_replace
+          </span>
+          <span class="material-symbols-outlined">
+            shopping_cart
+            </span>
+            <span onclick="nav()"  class="material-symbols-outlined">
+              menu
+              </span>
+      </div>
+  </nav>
+<div class="login">
+  <h2>Login</h2>
+  <input type="text" placeholder="enter your name"><br>
+  <input type="password" placeholder="password">
+  <button>Login</button>
+</div>
+
+<div class="nav">
+  <h2>Login</h2>
+  <p>Home</p>
+  <p>Foods</p>
+  <p>Blog</p>
+  <p>customer</p>
+</div>
+  <!--main page-->
+<div class="main">
+  <div class="text">
+    <h1>Simple & Tasty Recipes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum adipisci reprehenderit quam, recusandae quia <br>aliquid, blanditiis eius est debitis mollitia unde culpa, iste rerum quo laboriosam illo voluptatibus architecto veniam?</p>
+    <button>Explore More</button>
+  </div>
+  <img src="images/burger.webp" alt="">
+</div>
+<!--card Food-->
+<table>
+  <tr>
+    <td>
+      <div class="head">
+        <h1>OUR<span>FOOD</span></h1>
+
+      </div>
+      <div class="crd">
+        <div class="card">
+          <img src="images/front.jpg" alt="">
+          <h2>99 Rupees only</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <button>Order Now</button>
+        </div>
+
+        <div class="card">
+          <img src="images/chowmin.jpg" alt="">
+          <h2>79 Rupees only</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <button>Order Now</button>
+        </div>
+
+        <div class="card">
+          <img src="images/pizza-pollo-arrostojpg.jpg" alt="">
+          <h2>299 Rupees only</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <button>Order Now</button>
+        </div>
+
+      </div>
+
+      <div class="crd">
+        <div class="card">
+          <img src="images/Dal chawal.jpg" alt="">
+          <h2>99 Rupees only</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <button>Order Now</button>
+        </div>
+
+        <div class="card">
+          <img src="images/Litti Chokha.jpg" alt="">
+          <h2>89 Rupees only</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <button>Order Now</button>
+        </div>
+
+        <div class="card">
+          <img src="images/chicken-hyderabadi-biryani-01.jpg" alt="">
+          <h2>129 Rupees only</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <button>Order Now</button>
+        </div>
+
+      </div>
+
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="head">
+        <h1>Our<span>Bolgs</span></h1>
+
+      </div>
+      <div class="crd">
+        <div class="Blogs">
+          <img src="images/rmjkg64_indian.webp" alt="">
+          <h2>Fact About Indian Food</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/#:~:text=India%20produces%20more%20than%2070,almost%20regarded%20as%20black%20gold.">Read More</a>
+        </div>
+
+        <div class="Blogs">
+          <img src="images/front.jpg" alt="">
+          <h2>Different types of burger</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read More</a>
+        </div>
+
+        <div class="Blogs">
+          <img src="images/Chicken-Vindaloo.jpg" alt="">
+          <h2>Delicious Cheaken Recipes</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam.</p>
+          <a href="https://www.indianhealthyrecipes.com/recipes/chicken-recipes/">Read More</a>
+        </div>
+
+      </div>
+    </td>
+  </tr>
+</table>
+
+<!--Customer Review-->
+<div class="head">
+  <h1>Customer<span>Review</span></h1>
+</div>
+<div class="review">
+  <div class="customer">
+    <img src="images/Abhisheak.jpg" alt=""><br>
+    <span class="material-symbols-outlined">
+      star
+      </span>
+      <span class="material-symbols-outlined">
+        star
+        </span>
+        <span class="material-symbols-outlined">
+          star
+          </span>
+          <span class="material-symbols-outlined">
+            star
+            </span>
+            <span class="material-symbols-outlined">
+              star_half
+              </span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sed a amet officiis odit alias animi repellat nisi dolore officia fugit illum aliquid mollitia est, eum iure quibusdam delectus laborum?</p>
+  </div>
+
+  <div class="customer">
+    <img src="images/uma.jpg" alt=""><br>
+    <span class="material-symbols-outlined">
+      star
+      </span>
+      <span class="material-symbols-outlined">
+        star
+        </span>
+        <span class="material-symbols-outlined">
+          star
+          </span>
+          <span class="material-symbols-outlined">
+            star
+            </span>
+            <span class="material-symbols-outlined">
+              star_half
+              </span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sed a amet officiis odit alias animi repellat nisi dolore officia fugit illum aliquid mollitia est, eum iure quibusdam delectus laborum?</p>
+  </div>
+
+  <div class="customer imgg">
+    <img src="images/20220624_102837.jpg"alt=""><br>
+    <span class="material-symbols-outlined">
+      star
+      </span>
+      <span class="material-symbols-outlined">
+        star
+        </span>
+        <span class="material-symbols-outlined">
+          star
+          </span>
+          <span class="material-symbols-outlined">
+            star
+            </span>
+            <span class="material-symbols-outlined">
+              star_half
+              </span>
+  </div>
+ 
+</div>
+<div class="btn">
+  <button onclick="pre()">Prev</button>
+  <button onclick="next()">next</button>
+</div>
+<div class="footer">
+  <div class="text">
+  <h2>About us</h2>
+  <p>Produt</p>
+  <p>Services</p>
+  <p>Customer</p>
+  <p>Food</p>
+</div>
+<div class="text">
+<h2>About us</h2>
+<p>Near</p>
+<p>Services</p>
+<p>Customer</p>
+<p>Food</p>
+</div>
+<div class="text">
+<h2>About us</h2>
+<p>Website</p>
+<p>Services</p>
+<p>Customer</p>
+<p>Food</p>
+</div>
+</div>
+</div>
+<script src="food.js"></script>
+</body>
+</html>
